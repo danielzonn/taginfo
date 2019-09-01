@@ -155,9 +155,27 @@ pages:
     about:
         about_taginfo:
             title: Sobre o taginfo
+            text: |
+                <p>OpenStreetMap usa <b>tags</b> (etiquetas) para agregar significado aos 
+                objetos geográficos. Não há uma lista fixa destas etiquetas. Novas etiquetas 
+                Podem ser criadas e usadas quando necessário. Todos podem criar uma nova 
+                etiqueta e adicioná-la em um projeto novo ou existente. Isto torna OpenStreetMap 
+                imensamente flexível, mas às vezes um pouco complicado de trabalhar.</p>
+                <p>Caso você esteja colaborando com o OSM, ou usando os dados do OSM, sempre há 
+                dúvidas como: quais etiquetas as pessoas usam para o recurso X?, quais etiquetas 
+                usar para o recurso Y para que ele pareça corretamente no mapa?, a etiqueta Z 
+                descrita na wiki está realmente em uso, e onde?</p>
+                <p>Taginfo ajuda você mostrando as estatísticas sobre etiquetas que já estão em 
+                uso na base de dados, quantas pessoas usam estas etiquetas, onde elas são usadas 
+                e assim por diante. Também dá informaçoões sobre etiquetas da wiki e de outros 
+                lugares. Taginfo busca oferecer todas as informações sobre etiquetas para lhe 
+                ajudar a entender como são usadas e o que significam. Veja a <a href="/sources">lista de fontes</a>
+                que taginfo usa.</p>
+        about_site:
+            title: Sobre este site                
     sources:
         intro: |
-            <p>Taginfo obtém dados sobre etiquetas OSM a partir de diversas fontes, e os
+            <p>Taginfo coleta dados sobre etiquetas OSM a partir de diversas fontes, e os
             unifica para facilitar navegação e consulta.</p>
             <p>O sistema apenas exibe esses dados. Se você quer alterá-los, precisa
             ir à fonte.</p>
@@ -355,7 +373,7 @@ flexigrid:
 
 comparison:
     list: Lista de comparação
-    items: itens
+    items: Ítens
     add_key: Adicionar esta chave na lista
     add_tag: Adicionar esta etiqueta na lista
     clear: Limpar lista de comparação
@@ -439,7 +457,7 @@ reports:
         english_name: Nome em inglês
         wiki_key_pages: Páginas de chaves no wiki
         wiki_tag_pages: Páginas de etiquetas no wiki
-    wiki_pages_about_non_existing_keys:
+    wiki_pages_about_non_existing_keys: 
         name: Páginas wiki sobre chaves que não existem
         intro: |
             Esta tabela mostra chaves que possuem uma página wiki, mas não são utilizadas
